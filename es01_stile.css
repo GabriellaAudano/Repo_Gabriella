@@ -1,0 +1,26 @@
+/* Stile per il sito 'Le ricette di Nonna Papera' eso1_ricette.html */
+
+body {width: 100%;}
+
+h1 {text-align: center; 
+    margin-bottom: 60px;}
+
+p {font-size: larger; 
+   font-weight:normal; 
+   font-family: Arial, Helvetica, sans-serif; 
+   width: 200px; 
+   text-align:center}
+
+img {width: 200px; /*flex: 1 1 auto;*/}
+img:hover {width: 220px;}       /* quando vado sull'immagine diventa un pochino più grande */
+
+.flex {width: 200px; 
+       display: flex; 
+       flex-direction: column;}  
+                /* classe associata al div, lo fa diventare un contenitore flex
+                cioè serve per allineare le immagini all'interno del contenitore
+                se ingrandisco o rimpicciolisco la finestra web  */
+
+.flex:hover {width: 220px;
+             background-color: blanchedalmond;}
+.flex-cont {width: 200px;}
